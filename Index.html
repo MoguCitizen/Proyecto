@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Comida</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="https://thumbs.dreamstime.com/b/wektorowy-logo-dla-fasta-food-133233313.jpg" alt="Fast Food">
+        </div>
+        <div class="menu-options">
+            <a href="#">Menu</a>
+            <a href="#">Mis pedidos</a>
+            <a href="#">Locales</a>
+        </div>
+        <div class="search-icon">
+            <input type="text" id="search-box" placeholder="Buscar" />
+            <button id="search-button"><img src="https://static.vecteezy.com/system/resources/previews/035/323/917/original/magnifying-glass-icon-magnifier-or-loupe-sign-web-search-icon-vector.jpg" alt="Buscar"></button>
+        </div>
+        <div class="menu-options"></div>
+            <a href="#">Llamanos</a>
+            <a href="#">Hola,</a>
+        </div>
+        
+        <div class="shopping-cart">
+            <button id="search-button"><img src="https://vectorified.com/images/shopping-cart-icon-transparent-20.png" alt="Buscar"></button>
+            <span>S/ 0.00</span>
+        </div>
+    </header>
+
+    <div id="search-history"></div>
+        <h4>Historial de Búsqueda</h4>
+        <ul id="history-list"></ul>
+    </div>
+
+    <main>
+        <div id="results-container">
+            <h2 id="search-title">Resultados de búsqueda para:</h2>
+            <div id="search-results"></div>
+        </div>
+    </main>
+
+    <div class="result-container">
+        <div class="result-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkw8gdGtNkwciqbBMUIjBOauTBzM3xKHF8GQ&s" alt="Pollo Crocante">
+          <h3>Pollo Crocante</h3>
+          <p>Pollo crocante con mayonesa</p>
+          <p class="price">S/ 25.00</p>
+          <button class="add-to-cart">Agregar al pedido</button>
+        </div>
+    </div>
+    
+    <div class="result-container">
+        <div class="result-item">
+          <img src="https://cocinamia.com.mx/wp-content/uploads/2022/09/receta-de-patatas-cajun-al-microondas-1-1100x500.jpeg" alt="Papas cajun">
+          <h3>Papas Cajun</h3>
+          <p>Papas fritas doradas con una mezcla de especias cajún</p>
+          <p class="price">S/ 20.00</p>
+          <button class="add-to-cart">Agregar al pedido</button>
+        </div>
+    </div>
+    
+    <div class="result-container">
+        <div class="result-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv8D-nYSw7hIDv9D1NVBMv6lR6weveKLP38g&s" alt="Tradi Roll">
+          <h3>Tradi Roll</h3>
+          <p>Tortilla de trigo con pollo crujiente, queso cheddar, salsa mayonesa especial, tomate y lechuga picada.</p>
+          <p class="price">S/ 15.00</p>
+          <button class="add-to-cart">Agregar al pedido</button>
+        </div>
+    </div>    
+    
+    <script src="script.js"></script>
+</body>
+</html>
